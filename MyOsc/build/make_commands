@@ -1,0 +1,4 @@
+#!/bin/bash
+cmake -DSC_PATH=/home/sinanm/Downloads/sonic-pi/supercollider/ ..
+cmake -DCMAKE_BUILD_TYPE=RELEASE ..
+make
